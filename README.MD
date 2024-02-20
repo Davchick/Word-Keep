@@ -25,4 +25,5 @@ Open it in the [Expo app](https://expo.io) on your phone to view it. It will rel
 ### Developers
 
 Frontend - [Davchick](https://github.com/Davchick)
+
 Backend - [NaShAdIR](https://github.com/NaShAdIR)
