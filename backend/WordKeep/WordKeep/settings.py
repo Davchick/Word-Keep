@@ -2,21 +2,23 @@ from web.core.statics import sp
 
 DEBUG = True
 TRACING = True
-STOP_ON_EXCEPTION = False
-
-SERVER_HOST = '127.0.0.1'
-SERVER_PORT = 80
+STOP_ON_EXCEPTION = False  # works only with DEBUG=False
 
 INSTALL_APPS = [
-    'home'
+    'Home',
+    'Login'
 ]
 
 STATIC_FILE_DIRS = {
-    'home': [
-        sp('', 'frontend/')
+    'Home': [
+        sp('', 'frontend')
+    ],
+    'Login': [
+        sp('login/', 'frontend')
     ]
 }
 
 ROOT_URLPATTERNS = [
-    ('', 'home')
+    ('', 'Home'),
+    ('login/', 'Login')
 ]
