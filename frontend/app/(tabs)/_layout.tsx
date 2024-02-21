@@ -17,6 +17,7 @@ const Layout = () => {
         name="index"
         options={{
           tabBarLabel: "Home",
+          title: "Home",
           tabBarIcon: ({ color, size }) => (
             <Ionicons name="home-outline" color={color} size={size} />
           ),
@@ -26,6 +27,7 @@ const Layout = () => {
         name="words"
         options={{
           tabBarLabel: "Words",
+          title: "Words",
           tabBarIcon: ({ color, size }) => (
             <Ionicons name="list" color={color} size={size} />
           ),
@@ -35,6 +37,7 @@ const Layout = () => {
         name="community"
         options={{
           tabBarLabel: "Community",
+          title: "Community",
           tabBarIcon: ({ color, size }) => (
             <Ionicons name="compass-outline" color={color} size={size} />
           ),
@@ -44,6 +47,7 @@ const Layout = () => {
         name="friends"
         options={{
           tabBarLabel: "Friends",
+          title: "Friends",
           tabBarIcon: ({ color, size }) => (
             <Ionicons name="people-outline" color={color} size={size} />
           ),
@@ -53,6 +57,7 @@ const Layout = () => {
         name="profile"
         options={{
           tabBarLabel: "Profile",
+          title: "Profile",
           tabBarIcon: ({ color, size }) => (
             <Ionicons name="person-outline" color={color} size={size} />
           ),
