@@ -1,5 +1,5 @@
 from .views import login
 
 urlpatterns = [
-    ('', login)
+    ('', login.as_view())
 ]
