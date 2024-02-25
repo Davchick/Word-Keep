@@ -6,7 +6,7 @@ from web.http import (
 from web.core.statics import get_static
 from web.core.view import View
 
-cls
+
 class Login(View):
     db = {
         'username': 'Seyran',
